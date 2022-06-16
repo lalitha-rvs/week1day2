@@ -20,12 +20,12 @@ public class Car {                                       //created class name Ca
 		return accelerate;
     	
     }
-                                                         //methods called in main methods
+                                                         //methods called in main method
     public static void main(String[] args)
     {
     	Car obj=new Car();                                 //object created for the class Car
     	String applyBreak = obj.applyBreak();             
-    	 System.out.println("apply break="+applyBreak);
+    	 System.out.println("apply break="+applyBreak);    //print the called method value 
     	
     	 int applyGear = obj.applyGear();                 //methods called using object
     	
